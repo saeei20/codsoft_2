@@ -1,0 +1,104 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+
+nav {
+    background-color: #3498db;
+    padding: 30px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    float: right;
+}
+
+nav .logo {
+    float: left;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+}
+
+header img {
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+section {
+    margin: 50px 0;
+    padding: 20px;
+}
+
+section h2 {
+    color: #3498db;
+}
+
+.project-box,
+.achievement-box {
+    border: 2px solid #3498db;
+    padding: 15px;
+    margin: 10px 10px 10px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.social-icons button {
+    margin: 0 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+button.linkedin {
+    background-color: #0077B5;
+    color: #fff;
+}
+
+button.twitter {
+    background-color: #1DA1F2;
+    color: #fff;
+}
+
+button.facebook {
+    background-color: #1877F2;
+    color: #fff;
+}
+
+button.instagram {
+    background-color: #E4405F;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3498db;
+    color: #fff;
+}
